@@ -216,3 +216,84 @@
   left: 57%;
   transform: translate(-54%, -57%);
 }
+
+/* Our Team */
+
+.team-image-text-box {
+  width: 341px;
+  height: 114px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.team-image {
+  position: relative;
+  display: inline-block;
+}
+
+.team-name {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #37393f;
+  font-family: "Inter Semibold";
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135%;
+  letter-spacing: 0;
+  color: #7d7d7d;
+  font-family: "Inter Regular";
+  margin-top: 4px;
+}
+
+.team-images-wrapper {
+  width: 1220px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-team-tag {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #37393f;
+  font-family: "Inter Medium";
+  margin-bottom: 16px;
+
+}
+
+.our-team-heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 121%;
+  letter-spacing: 0;
+  color: #37393f;
+  font-family: "Inter Semibold";
+}
+
+.our-team-text-box {
+  margin-bottom: 42px;
+}
+
+.our-team {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
