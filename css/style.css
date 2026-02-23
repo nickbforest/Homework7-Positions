@@ -44,3 +44,103 @@
   color: #ffffff;
   font-family: "Inter Semibold";
 }
+
+/* How We Work Texts */
+.work-process {
+  width: 1220px;
+  margin: 0 auto;
+  margin-top: 136px;
+}
+
+.texts-wrapper {
+  width: 283px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.texts-tag {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #37393f;
+  font-family: "Inter Medium";
+}
+
+.texts-heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 121%;
+  letter-spacing: 0;
+  color: #37393f;
+  font-family: "Inter Semibold";
+  margin-top: 16px;
+}
+
+/* Cards */
+.card-wrapper {
+  width: 1220px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+
+.card {
+  width: 386px;
+  height: 383px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-texts {
+  width: 300px;
+  margin-bottom: 37px;
+}
+
+.card-heading {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 127%;
+  letter-spacing: 0;
+  color: #37393f;
+  font-family: "Inter Medium";
+}
+
+.card-paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 146%;
+  letter-spacing: 0;
+  color: #7d7d7d;
+  font-family: "Inter Regular";
+  margin-top: 16px;
+}
+
+.card-span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #6b77e5;
+  font-family: "Inter Semibold";
+}
+
+.card-icon-wrapper {
+  width: 72px;
+  height: 72px;
+  background-color: #40ddb6;
+  border-radius: 100%;
+  position: relative;
+  margin-top: 10px;
+}
+
+.card-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
