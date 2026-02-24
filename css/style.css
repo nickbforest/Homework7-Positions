@@ -9,6 +9,22 @@
   margin-top: 52px;
 }
 
+.header {
+  background-color: #ffffff;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.header-container.scrolled {
+  background-color: #ffffff;
+}
+
 .logo-image {
   width: 200px;
 }
