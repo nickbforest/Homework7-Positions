@@ -1,6 +1,6 @@
 /* Header */
 
-.header-container {
+/* .header-container {
   width: 1220px;
   display: flex;
   justify-content: space-between;
@@ -16,13 +16,46 @@
   top: 0;
   left: 0;
   z-index: 100;
-  transition:
-    background-color 0.3s ease,
-    box-shadow 0.3s ease;
 }
 
-.header-container.scrolled {
-  background-color: #ffffff;
+/* Sticky Header */
+
+.header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  transition:
+    background-color 0.3s ease,
+    backdrop-filter 0.3s ease;
+
+  box-shadow: none; /* no shadow initially */
+}
+
+.header.scrolled {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(15px);
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition:
+    background-color 0.3s ease,
+    backdrop-filter 0.3s ease,
+    box-shadow 0.3s ease 0.2s; /* delay for shadow */
+}
+
+.header-container {
+  width: 1220px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 52px;
 }
 
 .logo-image {
